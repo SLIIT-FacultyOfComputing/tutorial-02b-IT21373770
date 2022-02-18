@@ -12,7 +12,7 @@ int main()
     long fac;
 
     cout<< "Enter a Number : " <<endl ;
-    cin<< no ;
+    cin>> no ;
 
     fac = 1;
     for (int r=no; r >= 1; r--) 
@@ -20,6 +20,6 @@ int main()
         fac = fac * r;
     }
 
-    cout<< "Factorial of  is "<< no , << fac);  
+    cout<< "Factorial of" << no<<  "is"  << fac ;  
     return 0;
 }
